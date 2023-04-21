@@ -27,7 +27,7 @@
 
 const std::list<std::string_view> main_commands = {
 #ifdef __aarch64__
-#include "commands-aarch64-termux-main.h"
+include "commands-aarch64-termux-main.h"
 #elif defined __arm__
 #include "commands-arm-termux-main.h"
 #elif defined __i686__
